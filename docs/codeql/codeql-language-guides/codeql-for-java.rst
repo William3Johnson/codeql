@@ -23,7 +23,7 @@ Experiment and learn how to write effective and efficient queries for CodeQL dat
 
 -  :doc:`CodeQL library for Java <codeql-library-for-java>`: When analyzing Java code, you can use the large collection of classes in the CodeQL library for Java.
 
--  :doc:`Analyzing data flow in Java <analyzing-data-flow-in-java>`: You can use CodeQL to track the flow of data through a Java program to its use. 
+-  :doc:`Analyzing data flow in Java <analyzing-data-flow-in-java>`: You can use CodeQL to track the flow of data through a Java program to its use.
 
 -  :doc:`Java types <types-in-java>`: You can use CodeQL to find out information about data types used in Java code. This allows you to write queries to identify specific type-related issues.
 
@@ -38,4 +38,3 @@ Experiment and learn how to write effective and efficient queries for CodeQL dat
 -  :doc:`Working with source locations <working-with-source-locations>`: You can use the location of entities within Java code to look for potential errors. Locations allow you to deduce the presence, or absence, of white space which, in some cases, may indicate a problem.
 
 -  :doc:`Abstract syntax tree classes for working with Java programs <abstract-syntax-tree-classes-for-working-with-java-programs>`: CodeQL has a large selection of classes for representing the abstract syntax tree of Java programs.
-
