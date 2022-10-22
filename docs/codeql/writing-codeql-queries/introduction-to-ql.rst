@@ -1,6 +1,6 @@
 .. _introduction-to-ql:
 
-Introduction to QL 
+Introduction to QL
 ==================
 
 Work through some simple exercises and examples to learn about the basics of QL and CodeQL.

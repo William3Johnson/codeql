@@ -192,7 +192,7 @@ private class {0}{1}Csv extends {2} {{
             sourceCsv = ""
 
         return f"""
-/** 
+/**
  * THIS FILE IS AN AUTO-GENERATED MODELS AS DATA FILE. DO NOT EDIT.
  * Definitions of taint steps in the {self.friendlyname} framework.
  */
@@ -268,7 +268,7 @@ private import semmle.code.{self.language}.dataflow.ExternalFlow
         if self.dryRun:
             print("CSV Models generated, but not written to file.")
             sys.exit(0)
-        
+
         if self.generateSinks or self.generateSinks or self.generateSummaries:
             self.save(content, self.frameworkTarget)
 
