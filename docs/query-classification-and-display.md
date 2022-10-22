@@ -92,10 +92,10 @@ Precision:     | very-high | high    | medium | low
 Error          | **Yes**   | **Yes** | No     | No
 Warning        | **Yes**   | **Yes** | No     | No
 Recommendation | **Yes**   | No      | No     | No
-  
+
 Results for queries that are run but not displayed by default can be
 made visible by editing the project configuration.
-  
+
 Queries from custom query packs (in-repo or site-wide) are always run
 and displayed by default. They can be hidden by editing the project
 config, and "disabled" by removing them from the query pack.

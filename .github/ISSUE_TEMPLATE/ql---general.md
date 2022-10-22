@@ -11,4 +11,3 @@ assignees: ''
 
 <!-- Please explain briefly what is the problem.
 If it is about an LGTM project, please include its URL.-->
-
