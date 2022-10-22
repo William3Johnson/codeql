@@ -12,12 +12,12 @@ returns a <b>non</b>-slash-terminated path string, so a slash must be added to <
 </recommendation>
 <example>
 
-<p> 
+<p>
 
 
-In this example, the <code>if</code> statement checks if <code>parent.getCanonicalPath()</code> 
-is a prefix of <code>dir.getCanonicalPath()</code>. However, <code>parent.getCanonicalPath()</code> is 
-not slash-terminated.  This means that users that supply <code>dir</code> may be also allowed to access siblings of <code>parent</code> 
+In this example, the <code>if</code> statement checks if <code>parent.getCanonicalPath()</code>
+is a prefix of <code>dir.getCanonicalPath()</code>. However, <code>parent.getCanonicalPath()</code> is
+not slash-terminated.  This means that users that supply <code>dir</code> may be also allowed to access siblings of <code>parent</code>
 and not just children of <code>parent</code>, which is a security issue.
 
 </p>
@@ -26,9 +26,9 @@ and not just children of <code>parent</code>, which is a security issue.
 
 <p>
 
-In this example, the <code>if</code> statement checks if <code>parent.getCanonicalPath() + File.separator </code> 
-is a prefix of <code>dir.getCanonicalPath()</code>. Because <code>parent.getCanonicalPath().toPath()</code> is 
-indeed slash-terminated, the user supplying <code>dir</code> can only access children of 
+In this example, the <code>if</code> statement checks if <code>parent.getCanonicalPath() + File.separator </code>
+is a prefix of <code>dir.getCanonicalPath()</code>. Because <code>parent.getCanonicalPath().toPath()</code> is
+indeed slash-terminated, the user supplying <code>dir</code> can only access children of
 <code>parent</code>, as desired.
 
 </p>
