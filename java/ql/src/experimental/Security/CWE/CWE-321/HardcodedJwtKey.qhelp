@@ -2,9 +2,9 @@
 <qhelp>
     <overview>
         <p>
-            JWT (JSON Web Token) is an open standard (RFC 7519) that defines a way to provide information 
+            JWT (JSON Web Token) is an open standard (RFC 7519) that defines a way to provide information
             within a JSON object between two parties. JWT is widely used for sharing security information
-            between two parties in web applications. Each JWT contains encoded JSON objects, including a 
+            between two parties in web applications. Each JWT contains encoded JSON objects, including a
             set of claims. JWTs are signed using a cryptographic algorithm to ensure that the claims cannot
             be altered after the token is issued.
           </p>
@@ -17,7 +17,7 @@
 
     <recommendation>
         <p>
-            Generating a cryptographically secure secret key during application initialization and using this 
+            Generating a cryptographically secure secret key during application initialization and using this
             generated key for JWT signing/verification requests can prevent this vulnerability. Or safely store
             the secret key in a key vault that cannot be leaked in source code.
           </p>
@@ -25,7 +25,7 @@
 
     <example>
         <p>
-            The following examples show the bad case and the good case respectively. The <code>bad</code> 
+            The following examples show the bad case and the good case respectively. The <code>bad</code>
             methods show a hardcoded secret key is used to sign and verify JWT tokens. In the <code>good</code>
             method, the secret key is loaded from a system environment during application initialization.
         </p>

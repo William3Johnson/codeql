@@ -211,7 +211,7 @@ see ":doc:`About CodeQL packs <about-codeql-packs>`."
    There are different versions of the CodeQL queries available for different
    users. Check out the correct version for your use case:
 
-   - For the queries that are intended to be used with the latest CodeQL CLI release, check out the 
+   - For the queries that are intended to be used with the latest CodeQL CLI release, check out the
      branch tagged ``codeql-cli/latest``. You should use this branch for databases you've built
      using the CodeQL CLI, fetched from code scanning on GitHub, or recently downloaded from GitHub.com.
 
