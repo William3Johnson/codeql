@@ -38,7 +38,7 @@ tools: $(BIN_FILES)
 	rm -rf tools/bin
 	mkdir tools/bin
 	cp -r target/release/ruby-autobuilder$(EXE) tools/bin/autobuilder$(EXE)
-	cp -r target/release/ruby-extractor$(EXE) tools/bin/extractor$(EXE)	
+	cp -r target/release/ruby-extractor$(EXE) tools/bin/extractor$(EXE)
 
 target/release/%$(EXE):
 	cargo build --release --bin $(basename $(notdir $@))

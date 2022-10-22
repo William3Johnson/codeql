@@ -1,5 +1,5 @@
 import cpp
-  
+
 from FunctionCall alloc, FunctionCall free, LocalScopeVariable v
 where allocationCall(alloc)
   and alloc = v.getAnAssignedValue()
