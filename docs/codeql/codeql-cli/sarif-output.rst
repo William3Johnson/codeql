@@ -29,7 +29,7 @@ Changes between versions
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
 +----------------+-----------------+-----------------------------------------------------------------------------------------------------------------------------+
-| CodeQL version | Format type     | Changes                                                                                                                     | 
+| CodeQL version | Format type     | Changes                                                                                                                     |
 +================+=================+=============================================================================================================================+
 | 2.0.0          | ``sarifv2.1.0`` | First version of this format.                                                                                               |
 +----------------+-----------------+-----------------------------------------------------------------------------------------------------------------------------+
@@ -116,7 +116,7 @@ circumstances. We omit any properties that are never generated.
 +------------------------+-----------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | ``organization``       | Always                      | Set to “GitHub”.                                                                                                                                                                                                                                                                         |
 +------------------------+-----------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| ``version``            | Always                      | Set to the CodeQL release version e.g. “2.0.0”.                                                                                                                                                                                                                                          |                                   
+| ``version``            | Always                      | Set to the CodeQL release version e.g. “2.0.0”.                                                                                                                                                                                                                                          |
 +------------------------+-----------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | ``rules``              | Always                      | An array of ``reportingDescriptor`` objects that represent rules. This array will contain, at a minimum, all the rules that were run during this analysis, but may contain rules which were available but not run. For more detail about enabling queries, see ``defaultConfiguration``. |
 +------------------------+-----------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -169,7 +169,7 @@ circumstances. We omit any properties that are never generated.
 ``result`` object
 ~~~~~~~~~~~~~~~~~
 
-The composition of the results is dependent on the options provided to CodeQL. 
+The composition of the results is dependent on the options provided to CodeQL.
 By default, the results are grouped by unique message format string and
 primary location. Thus, two results that occur at the same location with the
 same underlying message, will appear as a single result in the output. This

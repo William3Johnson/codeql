@@ -167,7 +167,7 @@ When finding the solution, you should be careful to avoid "infinite" paths. For 
 could ferry the goat back and forth any number of times without ever reaching an unsafe state.
 Such a path would have an infinite number of river crossings without ever solving the puzzle.
 
-One way to restrict our paths to a finite number of river crossings is to define a 
+One way to restrict our paths to a finite number of river crossings is to define a
 :ref:`member predicate <member-predicates>`
 ``State reachesVia(string path, int steps)``.
 The result of this predicate is any state that is reachable from the current state (``this``) via
@@ -265,7 +265,7 @@ Here are some more example queries that solve the river crossing puzzle:
 
      ➤ `See solution in the query console on LGTM.com <https://lgtm.com/query/659603593702729237/>`__
 
-  #. This query models the man and the cargo items in a different way, using an 
+  #. This query models the man and the cargo items in a different way, using an
      :ref:`abstract <abstract>`
      class and predicate. It also displays the resulting path in a more visual way.
 
