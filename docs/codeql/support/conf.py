@@ -11,12 +11,12 @@
 # All configuration values have a default; values that are commented out
 # serve to show the default.
 
-# For details of all possible config values, 
+# For details of all possible config values,
 # see https://www.sphinx-doc.org/en/master/usage/configuration.html
 
 ##############################################################################
 #
-# Modified 22032021. 
+# Modified 22032021.
 
 # The configuration values below are specific to the supported languages and frameworks project
 # To amend html_theme_options, update version/release number, or add more sphinx extensions,
@@ -26,8 +26,8 @@
 
 # -- Project-specific configuration -----------------------------------
 
-# Set QL as the default language for highlighting code. Set to none to disable 
-# syntax highlighting. If omitted or left blank, it defaults to Python 3. 
+# Set QL as the default language for highlighting code. Set to none to disable
+# syntax highlighting. If omitted or left blank, it defaults to Python 3.
 highlight_language = 'none'
 
 # The name of the Pygments (syntax highlighting) style to use.
@@ -66,7 +66,7 @@ templates_path = ['../_templates']
 html_static_path = ['../_static']
 
 html_theme_options = {'font_size': '16px',
-                      'body_text': '#333', 
+                      'body_text': '#333',
                       'link': '#2F1695',
                       'link_hover': '#2F1695',
                       'show_powered_by': False,
