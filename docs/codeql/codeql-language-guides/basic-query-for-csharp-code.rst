@@ -40,7 +40,7 @@ Running the query
       from IfStmt ifstmt, BlockStmt block
       where ifstmt.getThen() = block and
         block.isEmpty()
-      select ifstmt, "This 'if' statement is redundant."  
+      select ifstmt, "This 'if' statement is redundant."
 
    LGTM checks whether your query compiles and, if all is well, the **Run** button changes to green to indicate that you can go ahead and run the query.
 
