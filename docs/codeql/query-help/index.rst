@@ -13,22 +13,22 @@ View the query help for the queries included in the ``code-scanning``, ``securit
 
 .. pull-quote:: Information
 
-   Each query help article includes: 
-   
+   Each query help article includes:
+
    - A summary of key metadata for the query.
    - Information about which query suites the query is included in.
    - A link to the query in the `CodeQL repository <https://github.com/github/codeql>`__.
    - A description of the potential vulnerability that the query identifies and a recommendation for how to avoid introducing the problem to your code.
 
 
-For a full list of the CWEs covered by these queries, see ":doc:`CodeQL CWE coverage <codeql-cwe-coverage>`." 
+For a full list of the CWEs covered by these queries, see ":doc:`CodeQL CWE coverage <codeql-cwe-coverage>`."
 
 .. include:: ../reusables/ruby-beta-note.rst
 
 .. toctree::
    :hidden:
    :titlesonly:
-   
+
    cpp
    csharp
    go
@@ -37,4 +37,3 @@ For a full list of the CWEs covered by these queries, see ":doc:`CodeQL CWE cove
    python
    ruby
    codeql-cwe-coverage
-   
