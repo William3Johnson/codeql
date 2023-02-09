@@ -4,13 +4,13 @@
 
    * - Language
      - Identifier
-   * - C/C++ 
+   * - C/C++
      - ``cpp``
-   * - C# 
+   * - C#
      - ``csharp``
    * - Go
      - ``go``
-   * - Java 
+   * - Java
      - ``java``
    * - JavaScript/TypeScript
      - ``javascript``
