@@ -22,7 +22,7 @@ To begin, consider this code snippet:
 
 If ``l`` is bigger than 2\ :sup:`31`\ - 1 (the largest positive value of type ``int``), then this loop will never terminate: ``i`` will start at zero, being incremented all the way up to 2\ :sup:`31`\ - 1, which is still smaller than ``l``. When it is incremented once more, an arithmetic overflow occurs, and ``i`` becomes -2\ :sup:`31`\, which also is smaller than ``l``! Eventually, ``i`` will reach zero again, and the cycle repeats.
 
-.. pull-quote::   
+.. pull-quote::
 
    More about overflow
 

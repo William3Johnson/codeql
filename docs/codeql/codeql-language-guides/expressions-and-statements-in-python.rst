@@ -260,4 +260,3 @@ Further reading
 
 .. include:: ../reusables/python-further-reading.rst
 .. include:: ../reusables/codeql-ref-tools-further-reading.rst
-
