@@ -603,12 +603,12 @@ public class AutoBuild {
       dependencyInstallationResult = this.preparePackagesAndDependencies(filesToExtract);
     }
     Set<Path> extractedFiles = new LinkedHashSet<>();
-    
+
     // Extract HTML files as they may contain TypeScript
     CompletableFuture<?> htmlFuture = extractFiles(
         filesToExtract, extractedFiles, extractors,
         f -> extractors.fileType(f) == FileType.HTML);
-    
+
     htmlFuture.join(); // Wait for HTML extraction to be finished.
 
     // extract TypeScript projects and files

@@ -5,7 +5,7 @@ To update this project for a new version:
 
 1. Check with the language teams that all information in the ``ql/change-notes/support/`` directory is ready.
 
-2. Open the ``global-conf.py`` file in the ``global-sphinx-files`` directory and change the following variables 
+2. Open the ``global-conf.py`` file in the ``global-sphinx-files`` directory and change the following variables
 to the correct value(s) if necessary:
 
     * ``version =``
