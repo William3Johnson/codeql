@@ -3,7 +3,7 @@
 Analyzing data flow in Java
 ===========================
 
-You can use CodeQL to track the flow of data through a Java program to its use. 
+You can use CodeQL to track the flow of data through a Java program to its use.
 
 About this article
 ------------------
@@ -152,7 +152,7 @@ Global data flow tracks data flow throughout the entire program, and is therefor
 .. pull-quote:: Note
 
    .. include:: ../reusables/path-problem.rst
-   
+
 Using global data flow
 ~~~~~~~~~~~~~~~~~~~~~~
 

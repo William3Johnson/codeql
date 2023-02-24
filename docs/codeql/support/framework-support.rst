@@ -12,8 +12,8 @@ LGTM Enterprise |release| includes CodeQL CLI |version|. The CodeQL libraries an
 .. pull-quote::
 
     Tip
-    
-    If you're interested in other libraries or frameworks, you can extend the analysis to cover them. 
+
+    If you're interested in other libraries or frameworks, you can extend the analysis to cover them.
     For example, by extending the data flow libraries to include data sources and sinks for additional libraries or frameworks.
 
 .. include:: reusables/frameworks.rst
