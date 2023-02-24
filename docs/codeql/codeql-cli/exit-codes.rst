@@ -54,7 +54,7 @@ Evaluation was explicitly canceled.
 99
 ---
 
-The CodeQL CLI ran out of memory. 
+The CodeQL CLI ran out of memory.
 
 This doesn't necessarily mean that all the machine's physical RAM has been used.
 If you don't use the ``--ram`` option to set a limit explicitly, the JVM decides on a default limit at startup.

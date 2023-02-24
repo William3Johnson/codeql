@@ -1,5 +1,5 @@
 public class InsecureLdapAuth {
-	/** LDAP authentication */	
+	/** LDAP authentication */
 	public DirContext ldapAuth(String ldapUserName, String password) {
 		{
 			// BAD: LDAP authentication in cleartext
