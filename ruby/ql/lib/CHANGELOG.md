@@ -41,7 +41,7 @@
 
 ### Deprecated APIs
 
-* Some classes/modules with upper-case acronyms in their name have been renamed to follow our style-guide. 
+* Some classes/modules with upper-case acronyms in their name have been renamed to follow our style-guide.
   The old name still exists as a deprecated alias.
 
 ### Minor Analysis Improvements
@@ -59,7 +59,7 @@
 
 ### Deprecated APIs
 
-* The utility files previously in the `codeql.ruby.security.performance` package have been moved to the `codeql.ruby.security.regexp` package.  
+* The utility files previously in the `codeql.ruby.security.performance` package have been moved to the `codeql.ruby.security.regexp` package.
   The previous files still exist as deprecated aliases.
 
 ### Minor Analysis Improvements
@@ -158,7 +158,7 @@
 
 ### Deprecated APIs
 
-* Many classes/predicates/modules that had upper-case acronyms have been renamed to follow our style-guide. 
+* Many classes/predicates/modules that had upper-case acronyms have been renamed to follow our style-guide.
   The old name still exists as a deprecated alias.
 
 ### New Features
