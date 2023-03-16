@@ -5,7 +5,7 @@ CodeQL CLI
 
 .. include:: ../reusables/codeql-cli-overview.rst
 
-- :ref:`Using the CodeQL CLI <using-the-codeql-cli>`: Software 
+- :ref:`Using the CodeQL CLI <using-the-codeql-cli>`: Software
   developers and security researchers can secure their code using the CodeQL CLI.
 
 - :ref:`CodeQL CLI reference <codeql-cli-reference>`: Learn more about the files you can use when running CodeQL processes and the results format and exit codes that CodeQL generates.
