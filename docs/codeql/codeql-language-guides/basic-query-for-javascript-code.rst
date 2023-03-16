@@ -116,7 +116,7 @@ To remove directives from the results:
    .. code-block:: ql
 
       where e.isPure() and
-        e.getParent() instanceof ExprStmt and 
+        e.getParent() instanceof ExprStmt and
         not e.getParent() instanceof Directive
 
 #. Click **Run**.
